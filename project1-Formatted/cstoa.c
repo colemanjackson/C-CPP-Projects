@@ -121,6 +121,7 @@ void cstoa(FILE *outputFile, FILE *CS229File, AUDIO *SoundVar){
 
 }
 
+//Finds the start Data from the CS229 file
 int startDataFinder(FILE* CS229File, AUDIO *SoundVar, FILE *outputFile){
 	char keyWord[33];
 	char line[100];

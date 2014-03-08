@@ -5,8 +5,11 @@
 #include "durationcalc.h"
 void atocs(FILE *outputFile, FILE *CS229File, AUDIO *SoundVar){
 	unsigned char line[10800];
+	
+	
 	keyValueFinderAIFF(CS229File, SoundVar);
-	printf("%d\n", SoundVar->numSamples);
+	
+	//PRINT CS229 FILE
 	fprintf(outputFile, "CS229\n");
 	fprintf(outputFile, "SampleRate %d\n", SoundVar->SampleRate);
 	fprintf(outputFile, "Channels %d\n", SoundVar->numChannels);

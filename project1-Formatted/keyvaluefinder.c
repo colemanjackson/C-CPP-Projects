@@ -3,7 +3,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
-
+//Finds all important data in a CS229 file and stores that data in an AUDIO struct. 
 void keyValueFinder229(FILE *cs229File,  AUDIO *varStore){
 	if (varStore == NULL){ // ERROR CHECK
 	fprintf(stderr, "bad mallac. Mem not allocated for AUDIO Struct. Declare and try again");
@@ -23,7 +23,7 @@ void keyValueFinder229(FILE *cs229File,  AUDIO *varStore){
 
 	while( fgets(line, sizeof(line), cs229File) != NULL){
 	           int keyWordVal;
-		sscanf(line, "%s %d", keyWord, &keyWordVal); 
+		sscanf(line, "%s %d", keyWord, &keyWordVal);  // Don't talk to me about redundant.... It works great. Don't hate.
 	 	if(keyWord[0] == 'C' && keyWord[1] == 'S'){
 			continue;
 		}
@@ -79,6 +79,7 @@ void keyValueFinder229(FILE *cs229File,  AUDIO *varStore){
 		double secondsWithDecimals = ((mathNumSamples) / (mathSampleRate));
 		durationCalc(secondsWithDecimals, varStore);
 	}
+	
 	
 }
 
