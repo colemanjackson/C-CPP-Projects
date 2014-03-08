@@ -1,0 +1,19 @@
+ComSci229
+=========
+
+Computer Science 229 Code
+
+
+Written in my first project class: Advanced Programming Techniques. The code is a mess, but represents
+my first real challange in writing 1000+ lines of code at any given time. These two projects are the SoundTools Project purly C and the ncurses library, Project 1
+and Conway's Game of Life, a C++ project (really more of a blend of C/C++, I wasn't pretty with my code.)
+
+
+to use, you will need :
+g++/gcc compiler, this was meant to run in a linux enviroment. Google g++/gcc for installation instructions ( I believe unbuntu has it standard)
+
+
+Once installed, the make files should build everything correctly. Simply navigate to the project directory and run the following command:
+make all
+
+this will build all executables, which can then be promted for help on how to use via ./executableName -h
