@@ -5,7 +5,7 @@ Computer Science 229 Code
 
 
 Written in my first project class: Advanced Programming Techniques. The code is a mess, but represents
-my first real challange in writing 1000+ lines of code at any given time. These two projects are the SoundTools Project purly C and the ncurses library, Project 1
+my first real challange in writing 1000+ lines of code at any given time. These two projects are the SoundTools Project (pure C and the ncurses library),
 and Conway's Game of Life, a C++ project (really more of a blend of C/C++, I wasn't pretty with my code.)
 
 
