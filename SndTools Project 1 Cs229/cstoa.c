@@ -6,7 +6,7 @@
 #include "keyvaluefinderaiff.h"
 #include "keyvaluefinder.h"
 #include "durationcalc.h"
-
+/* A note to the user: Much of this file is bit flipping and other types of black magic only C can love. Don't touch if you know what's good for you. */
 
 void FlipLong(unsigned char * ptr);
 int startDataFinder(FILE* CS229File, AUDIO *SoundVar, FILE *outputFile);
