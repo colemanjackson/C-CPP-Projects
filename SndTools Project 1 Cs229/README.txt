@@ -2,6 +2,8 @@ Project 1 Part 1
 
 Author: Coleman Jackson
 
+### PLEASE NOTE THERE ARE STILL  BUGS, ALL CODE IS PRESENTED AS-IS, AND WAS WRITTEN FOR PERSONAL USE ONLY. ###
+
 
 This project was done in two weeks as the first part of project 1 for Com Sci 229. The code is essentially broken down into two parts
 
@@ -27,8 +29,7 @@ This project was done in two weeks as the first part of project 1 for Com Sci 22
 _________________________________________________________________________________________________________
 	
 2) sndconv: sndconv takes a CS229 or AIFF formatted file and converts it into its respective counterpart, AIFF for CS229, and CS229 for AIFF. While this version is not working as well as I would have hoped,
-	   I believe it is working well enough to turn in for my first assignment. It uses every .c file listed above (except for the main method, with a few additions:
-            
+	   
 	   sndconvmain.c: The main method of the converter, which takes the other functions and converts the file to its opposite.
 	
 	   cstoa.c: this function takes an output file to write to, the input file, and a keyvaluefinder.h struct as its functional parameters.
@@ -75,13 +76,11 @@ of x is dictated by the desired total output width; see the program switches.
 
 
 support of switches:
--h : Display a short help screen to standard error, and then terminate cleanly.
-		-c c : Show the output only for channel c, for 1  c #channels.
-		-w w : Specify the total output width, in number of characters. If not specied, the default
-		is w = 80. Note that w must be even so that the number of characters for representing
-		positive values is equal to the number of characters for representing negative values. You
-		must support values down to w = 20.
+-h : Display a short help screen to standard error, and then terminate cleanly. Use -h to learn the use of other switches and the formatting of the program.
 
 
-this file is compriesed of every C file listed above, barring main methods. It makes use of math.h to help it calculate its ouptut, and is run by sndshowmain.c
-	sndshowmain.c: the main method which calls helper functions in order to print the data.
+5) sndedit:
+Sound Edit is the top of the soundfile tool list, it combines the previous elements into one application for editing sound, 
+complete with updating sound information, sndedit is a command line gui based sound editing tool built using the ncurses library.
+to use, the following switches can be provided to get you started:
+-h: displays a help message and terminates the program
