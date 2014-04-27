@@ -1,4 +1,3 @@
-
 Project 1 Part 1
 
 Author: Coleman Jackson
@@ -82,9 +81,6 @@ support of switches:
 		is w = 80. Note that w must be even so that the number of characters for representing
 		positive values is equal to the number of characters for representing negative values. You
 		must support values down to w = 20.
-		-z n : Zoom out by a factor of n. If not specied, the default is n = 1. The value to \plot"
-		should be the largest magnitude value over n consecutive samples, and the number of lines
-		of output should decrease by about a factor of n.
 
 
 this file is compriesed of every C file listed above, barring main methods. It makes use of math.h to help it calculate its ouptut, and is run by sndshowmain.c
