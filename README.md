@@ -14,7 +14,7 @@ All code is submitted as-is, for legacy's sake. Maybe one day I'll go through an
 
 # Getting Started
 to use, you will need :
-g++/gcc compiler, this was meant to run in a linux enviroment. Google g++/gcc for installation instructions ( I believe unbuntu has it standard)
+g++/gcc compiler, this was meant to run in a linux enviroment. Google g++/gcc for installation instructions ( I believe ubuntu OS has it standard)
 
 
 Once installed, the make files should build everything correctly. Simply navigate to the project directory and run the following command:
